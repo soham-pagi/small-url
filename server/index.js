@@ -17,6 +17,11 @@ app.use(
   })
 );
 
+// Redirect to frontend
+app.get("/", (req, res) => {
+  res.redirect("https://soham-pagi.github.io/small-url/");
+});
+
 app.use("/", urlRoutes);
 
 const PORT = process.env.PORT || 4000;
