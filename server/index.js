@@ -16,7 +16,6 @@ app.use(
     allowedHeaders: ["Content-Type", "Authorization"], // Allow specified headers
   })
 );
-// app.use(express.static("public"));
 
 app.use("/", urlRoutes);
 

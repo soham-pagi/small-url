@@ -1,7 +1,7 @@
 require("dotenv").config();
 const mongoose = require("mongoose");
 
-const mongoDBUri = `mongodb+srv://${process.env.MONGO_DB_USER}:${process.env.MONGO_DB_PASSWORD}@mycluster.8e9q6q9.mongodb.net/${process.env.MONGO_DB_NAME}?retryWrites=true&w=majority`;
+const mongoDBUri = `mongodb+srv://${process.env.MONGO_DB_USER}:${process.env.MONGO_DB_PASSWORD}@mycluster.ngdhthx.mongodb.net/${process.env.MONGO_DB_NAME}?retryWrites=true&w=majority`;
 
 console.log(mongoDBUri);
 
