@@ -7,7 +7,7 @@ shortenBtn.addEventListener("click", async () => {
   console.log({ originalUrl });
   if (!originalUrl) return;
 
-  const response = await fetch("http://127.0.0.1:4000/api/make/smallUrl", {
+  const response = await fetch("https://small.cyclic.app/api/make/smallUrl", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
