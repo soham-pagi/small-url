@@ -27,7 +27,6 @@ URL Shortener is a web application that enables you to create short versions of 
 ## Installation
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/soham-pagi/small-url.git
    ```
@@ -46,8 +45,8 @@ URL Shortener is a web application that enables you to create short versions of 
    ```sh
    npm start
    ```
-2. The api will be available at: http://localhost:4000
-3. Open the index.html file in the root directory with live server
+3. The api will be available at: http://localhost:4000
+4. Open the index.html file in the root directory with live server
 
 ## Front-End
 The front-end of the URL Shortener application features a clean and minimalistic design, providing users with a straightforward experience:
