@@ -25,7 +25,9 @@ const makeSmallUrl = async (req, res) => {
       await url.save();
     }
 
-    res.status(200).json({ smallUrl: "small.cyclic.app/" + url.smallUrl });
+    res
+      .status(200)
+      .json({ smallUrl: "https://small.cyclic.app/" + url.smallUrl });
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "Internal server error" });
